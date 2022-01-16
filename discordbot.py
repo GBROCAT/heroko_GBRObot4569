@@ -53,6 +53,8 @@ async def on_message(message):
         await message.channel.send('早起的喵喵有罐罐')
     if message.content == 'G哥睡了嗎':
         await message.channel.send('鄙人的僕人沒那麼早睡')
+    if message.content == '我擦':
+        await message.channel.send('文明點奴隸')
     
         
 
