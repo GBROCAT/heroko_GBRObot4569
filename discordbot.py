@@ -52,7 +52,7 @@ async def on_message(message):
     if message.content == '閉嘴':
         await message.channel.send('幹什麼東西!當本皇不在了嗎')
     if message.content == 'G哥睡了嗎':
-        await message.channel.send('鄙人的僕人沒那麼早睡')
+        await message.channel.send('朕的僕人沒那麼早睡')
     if message.content == '我擦':
         await message.channel.send('文明點奴隸')
     
