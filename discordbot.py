@@ -14,6 +14,13 @@ client = discord.Client()
 async def on_ready():
     print('成功登入')
 
+#當機器人完成啟動時
+async def on_ready():
+    print('目前登入身份：',client.user)
+    game = discord.Game('努力學習py中')
+    #discord.Status.<狀態>，可以是online,offline,idle,dnd,invisible
+    await client.change_presence(status=discord.Status.idle, activity=game)
+
 # 收到訊息時呼叫
 @client.event
 async def on_message(message):
