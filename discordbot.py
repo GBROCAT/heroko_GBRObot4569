@@ -49,8 +49,8 @@ async def on_message(message):
         await message.channel.send('本喵皇的膳食呢?')
     if message.content == '晚安':
         await message.channel.send('真是辛苦的一天')
-    if message.content == '早安':
-        await message.channel.send('早起的喵喵有罐罐')
+    if message.content == '閉嘴':
+        await message.channel.send('幹什麼東西!當本皇不在了嗎')
     if message.content == 'G哥睡了嗎':
         await message.channel.send('鄙人的僕人沒那麼早睡')
     if message.content == '我擦':
