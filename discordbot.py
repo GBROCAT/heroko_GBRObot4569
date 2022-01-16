@@ -42,8 +42,19 @@ async def on_message(message):
             await message.reply(remessage) 
            
     if message.content == '安安':
-        #發送訊息，並將本次訊息資料存入tmpmsg，方便之後刪除
-        tmpmsg = await message.channel.send('安安各位好')
+        await message.channel.send('安安各位好')
+    if message.content == '早安':
+        await message.channel.send('早起的喵喵有罐罐')
+    if message.content == '午安':
+        await message.channel.send('本喵皇的膳食呢?')
+    if message.content == '晚安':
+        await message.channel.send('真是辛苦的一天')
+    if message.content == '早安':
+        await message.channel.send('早起的喵喵有罐罐')
+    if message.content == 'G哥睡了嗎':
+        await message.channel.send('鄙人的僕人沒那麼早睡')
+    
+        
 
 # Bot起動
 client.run(TOKEN)
