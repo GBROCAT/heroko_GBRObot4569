@@ -17,7 +17,7 @@ client = discord.Client()
 #當機器人完成啟動時
 async def on_ready():
     print('目前登入身份：',client.user)
-    game = discord.Game('public sale-1/21 13:30!')
+    game = discord.Game('坐等餵食')
     #discord.Status.<狀態>，可以是online,offline,idle,dnd,invisible
     await client.change_presence(status=discord.Status.idle, activity=game)
 
