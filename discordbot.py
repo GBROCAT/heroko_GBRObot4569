@@ -40,6 +40,11 @@ async def on_message(message):
         if translator.detect(content).lang == SRCLanguage or SRCLanguage == '':
             remessage = translator.translate(content, dest='zh-tw').text
             await message.reply(remessage) 
+            
+async def on_message(message):
+    if message.content == '安安':
+        #發送訊息，並將本次訊息資料存入tmpmsg，方便之後刪除
+        tmpmsg = await message.channel.send('安安各位好')
 
 # Bot起動
 client.run(TOKEN)
