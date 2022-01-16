@@ -11,8 +11,8 @@ client = discord.Client()
 
 # 起動時呼叫
 @client.event
-async def on_ready():
-    print('成功登入')
+#async def on_ready():
+    #print('成功登入')
 
 #當機器人完成啟動時
 async def on_ready():
