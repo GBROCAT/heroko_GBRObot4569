@@ -55,7 +55,12 @@ async def on_message(message):
         await message.channel.send('朕的僕人沒那麼早睡')
     if message.content == '我擦':
         await message.channel.send('文明點奴隸')
-    
+    if message.content == '喵':
+        await message.channel.send('喵~')
+    if message.content == '喵喵':
+        await message.channel.send('吵什麼吵')
+    if message.content == '汪':
+        await message.channel.send('汪汪~')
         
 
 # Bot起動
