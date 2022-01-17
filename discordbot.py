@@ -20,7 +20,7 @@ async def on_ready():
     game = discord.Game('坐等餵食')
     #discord.Status.<狀態>，可以是online,offline,idle,dnd,invisible
     await client.change_presence(status=discord.Status.idle, activity=game)
-
+    
 # 收到訊息時呼叫
 @client.event
 async def on_message(message):
