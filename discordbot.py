@@ -65,6 +65,12 @@ async def on_message(message):
         await message.channel.send('嗚~~~~~~~')
     if message.content == '嗷嗚':
         await message.channel.send('嗚~~~~~~~')
+    if message.content == 'YT連結':
+        await message.channel.send('https://www.youtube.com/channel/UCyhDMz3--0Hq_v_8D7tUyXw')
+    if message.content == 'G哥YT':
+        await message.channel.send('https://www.youtube.com/channel/UCyhDMz3--0Hq_v_8D7tUyXw')
+    
+        
         
 
 # Bot起動
