@@ -78,6 +78,10 @@ async def on_message(message):
     if message.content == '抽獎':
         await message.channel.send('最近抽白單項目為:GHart：Honor of gods 台灣時間1月23日晚上9點截止 請先觀看G哥影片，影片下方有抽獎方式')
     if message.content == '抽獎':
+        await message.channel.send('台灣時間1月23日晚上9點截止')
+    if message.content == '抽獎':
+        await message.channel.send('請先觀看G哥影片，影片下方有抽獎方式')
+    if message.content == '抽獎':
         await message.channel.send('https://www.youtube.com/watch?v=y75PjXMUhrk')
     
     
