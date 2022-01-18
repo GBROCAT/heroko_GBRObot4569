@@ -71,6 +71,10 @@ async def on_message(message):
         await message.channel.send('https://www.youtube.com/channel/UCyhDMz3--0Hq_v_8D7tUyXw')
     if message.content == '最近合作的NFT項目':
         await message.channel.send('CYBER NINJA 公售時間:1/21 13:30 mint價格:0.08eth 每人限mint20個')
+    if message.content == '有什麼項目':
+        await message.channel.send('CYBER NINJA 公售時間:1/21 13:30 mint價格:0.08eth 每人限mint20個')
+    if message.content == '有啥項目':
+        await message.channel.send('CYBER NINJA 公售時間:1/21 13:30 mint價格:0.08eth 每人限mint20個')
     if message.content == '抽獎':
         await message.channel.send('最近抽白單項目為:GHart：Honor of gods 台灣時間1月23日晚上9點截止 請先觀看G哥影片，影片下方有抽獎方式')
     if message.content == '抽獎':
