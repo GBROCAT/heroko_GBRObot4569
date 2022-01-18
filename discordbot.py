@@ -69,6 +69,8 @@ async def on_message(message):
         await message.channel.send('https://www.youtube.com/channel/UCyhDMz3--0Hq_v_8D7tUyXw')
     if message.content == 'G哥YT':
         await message.channel.send('https://www.youtube.com/channel/UCyhDMz3--0Hq_v_8D7tUyXw')
+    if message.content == '最近的合作NFT項目':
+        await message.channel.send('CYBER NINJA 公售時間:1/21 13:30 mint價格:0.08eth 每人限mint20個')
     
         
         
