@@ -69,7 +69,7 @@ async def on_message(message):
         await message.channel.send('https://www.youtube.com/channel/UCyhDMz3--0Hq_v_8D7tUyXw')
     if message.content == 'G哥YT':
         await message.channel.send('https://www.youtube.com/channel/UCyhDMz3--0Hq_v_8D7tUyXw')
-    if message.content == '最近合作的NFT項目':
+    if message.content == '最近合作的項目':
         await message.channel.send('parody-camel 2月14日💕情人節💕 華人 X 日本人 總量6,500 稀有版 10 （免費） 第一次白 400 （1 SOL） 第二次白 500 （1.2 SOL） 公開發售 5,590 （1.4 SOL）想參與項目的，填google表單 https://forms.gle/QNUtb9YRXSRLui72A 抽獎送出10個白名單 條件是只要加入我的和官方的DC群就好(我會去刷帳號確認) 預計台灣時間1/23號晚上九點收單')
     if message.content == '最近有什麼項目':
         await message.channel.send('parody-camel 2月14日💕情人節💕 華人 X 日本人 總量6,500 稀有版 10 （免費） 第一次白 400 （1 SOL） 第二次白 500 （1.2 SOL） 公開發售 5,590 （1.4 SOL）想參與項目的，填google表單 https://forms.gle/QNUtb9YRXSRLui72A 抽獎送出10個白名單 條件是只要加入我的和官方的DC群就好(我會去刷帳號確認) 預計台灣時間1/23號晚上九點收單')
